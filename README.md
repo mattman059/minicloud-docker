@@ -35,13 +35,10 @@ It includes a lightweight Kubernetes distribution, monitoring, and a custom dash
 Start the stack:
   - docker-compose up -d
   - Access the services:
-
-- Flask Dashboard: http://localhost:5000
-- Prometheus: http://localhost:9090
-- Grafana: http://localhost:3000
-- K3s API: Accessible internally at localhost:6443
-
-🖼 Architecture
+      - Flask Dashboard: http://localhost:5000
+      - Prometheus: http://localhost:9090
+      - Grafana: http://localhost:3000
+      - K3s API: Accessible internally at localhost:6443
 
 🔧 Requirements
 - Docker (>= 20.x)
