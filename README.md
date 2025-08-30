@@ -22,7 +22,7 @@ It includes a lightweight Kubernetes distribution, monitoring, and a custom dash
 ### 4. **Flask Dashboard**
 - Custom lightweight web interface that shows the status of running Docker containers.
 - Displays container health with **red/yellow/green indicators**.
-- **Port:** `5000`
+- **Port:** `8081`
 
 ---
 
@@ -35,7 +35,7 @@ It includes a lightweight Kubernetes distribution, monitoring, and a custom dash
 Start the stack:
   - docker-compose up -d
   - Access the services:
-      - Flask Dashboard: http://localhost:5000
+      - Flask Dashboard: http://localhost:8081
       - Prometheus: http://localhost:9090
       - Grafana: http://localhost:3000
       - K3s API: Accessible internally at localhost:6443
