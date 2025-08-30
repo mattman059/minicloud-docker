@@ -36,29 +36,23 @@ Start the stack:
   - docker-compose up -d
   - Access the services:
 
-Flask Dashboard: http://localhost:5000
-
-Prometheus: http://localhost:9090
-
-Grafana: http://localhost:3000
-
-K3s API: Accessible internally at localhost:6443
+- Flask Dashboard: http://localhost:5000
+- Prometheus: http://localhost:9090
+- Grafana: http://localhost:3000
+- K3s API: Accessible internally at localhost:6443
 
 🖼 Architecture
 
 🔧 Requirements
-Docker (>= 20.x)
-
-Docker Compose (>= 1.29)
+- Docker (>= 20.x)
+- Docker Compose (>= 1.29)
 
 📝 Notes
 - Cilium is optional for CNI and advanced networking. It may fail to run unless the host supports the required kernel settings (e.g., /proc/sys/net/ipv6 entries). Feel free to comment it out in docker-compose.yml if you don't need to.
-- 
 - The Flask Dashboard container automatically installs Flask at build time via the requirements.txt file.
 
 ✅ Roadmap
-Add object storage simulation (MinIO)
 
-Add message queue (NATS or RabbitMQ)
-
-Add an authentication service
+- Add object storage simulation (MinIO)
+- Add message queue (NATS or RabbitMQ)
+- Add an authentication service
