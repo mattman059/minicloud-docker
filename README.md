@@ -30,7 +30,7 @@ It includes a lightweight Kubernetes distribution, monitoring, and a custom dash
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/minicloud.git
+   git clone https://github.com/mattman059/minicloud.git
    cd minicloud
 Start the stack:
   - docker-compose up -d
